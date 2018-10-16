@@ -11,6 +11,8 @@
 # I use venv to set up a virtual environment.  E.g.:
 #  python3 -m venv venv --prompt login_eg
 ###########################################################
+import os
+
 from flask import Flask, render_template, redirect, url_for, flash
 from flask_bcrypt import check_password_hash
 from flask_bootstrap import Bootstrap
@@ -21,7 +23,7 @@ app = Flask(__name__)
 Bootstrap(app)
 # Secret key is needed because we are using sessions...
 # Used random stuff.
-app.secret_key = 'adsfas97987apoilma.,sdfoiuofudsaf.,.masdfasdf'
+app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
 login_manager = LoginManager()
 login_manager.init_app(app)
 # Now set the html page to be displayed.
