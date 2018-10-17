@@ -6,6 +6,13 @@ The purpose of this project was to learn (and provide a template for) using:
 * the Flask-Bootstrap4 library so the web pages look "professional" without me having to cruft all the fancy-schmanzy CSS
 * PyCharm as a "time saver" IDE for Flask apps.
 # Getting Started
+```angular2html
+python -m venv venv --prompt flask_login
+source venv\bin\activate
+(flask_login) pip -r requirements.txt
+```
+
+
 ## Pycharm
 I started using Pycharm for this project.  Previously, I had been using Atom and to a lesser extent Eclipse for my Python projects.  I currently have many reasons to favor Pycharm:  
 * Excellent integration with GitHub. 
