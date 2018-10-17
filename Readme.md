@@ -93,4 +93,8 @@ The example shows integration with the flask-wtf library as well as flask's flas
   * [ReadTheDocs](https://flask-login.readthedocs.io/en/latest/) 
   * [The Flask Mega-Tutorial Part V: User Logins](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-v-user-logins)  
   * [Build a User Login System With Flask-Login, Flask-WTForms, Flask-Bootstrap, and Flask-SQLAlchemy](https://www.youtube.com/watch?v=8aTnmsDMldY)
-
+* pytest
+  * [Productive pytest with PyCharm](https://www.youtube.com/watch?v=ixqeebhUa-w&t=919s)
+  * [Python Testing with pytest](https://pragprog.com/book/bopytest/python-testing-with-pytest)
+* Using Bootstrap and using flash() with Bootstrap
+  * [The Flask Mega-Tutorial Part XI: Facelift](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xi-facelift)
