@@ -22,7 +22,6 @@ from login_user import User, LoginForm
 app = Flask(__name__)
 Bootstrap(app)
 # Secret key is needed because we are using sessions...
-# Used random stuff.
 app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
 login_manager = LoginManager()
 login_manager.init_app(app)
