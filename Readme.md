@@ -15,7 +15,7 @@ I started using Pycharm for this project.  Previously, I had been using Atom and
     * [In-Depth VCS #3: Branching and Merging](https://www.youtube.com/watch?v=AHkiCKG-JhM)
   * Nice touches. For example, as I type this, the markup is shown in the pane to the right of me in WYSIWIG.
 * Intelligent pip install of packages I start using within my code.  For example, when I type time.delay(20) and don't have the time module installed, PyCharm shows an indicator and asks if I wish to install it.
-* There are plenty more things to discover.
+* There are plenty more things to discover.  For example, the Pytest integration is excellent.  I am just learning Pytest and am finding the video [_Productive pytest with PyCharm_](https://www.youtube.com/watch?v=ixqeebhUa-w&t=919s) to be a great resource.
 
 One thing I found confusing at first was setting up the project's environment configuration.  While not as confusing as Eclipse, it took me awhile to integrate what tools I wanted to use, etc.  I ended watching several PyCharm videos to learn best techniques for handling preferences.    
 ## Logging In
